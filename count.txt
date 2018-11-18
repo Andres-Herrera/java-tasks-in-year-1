@@ -1,0 +1,31 @@
+/**   count
+ *    @authors:Andres Herrera
+ *    @version 08/11/2015
+ */
+
+public class count{ 
+public static void main(String[] args) { 
+// Declare and initialize three variables here 
+	
+	int number=1234;
+		int units= number%10;
+		int tenth1= number/10;
+		int tenth2= tenth1%10;
+		int hundreds= tenth1/10;
+		int thousands1= hundreds%10;
+		int thousands2=hundreds/10;
+		
+		int sum =units+tenth2+thousands1+thousands2;
+		
+		System.out.println(units);
+		System.out.println(tenth1);
+		System.out.println(tenth2);
+		System.out.println(hundreds);
+		System.out.println(thousands1);
+		System.out.println(thousands2);
+		
+System.out.println("the sum of the integer "+number+" is "+sum)		;
+
+
+}
+}

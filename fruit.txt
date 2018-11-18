@@ -1,0 +1,16 @@
+/**   fruit
+ *    @authors:Andres Herrera
+ *    @version 18/11/2015East London.
+ */
+
+public class Fruit{ 
+public static void main(String[] args) { 
+// Declare and initialize three variables here 
+int boy= 5;
+int girl= 10;
+int tfru= boy+girl;
+double ave=tfru/2.0;
+
+System.out.println("the average fruits are "+ave);
+
+} 
